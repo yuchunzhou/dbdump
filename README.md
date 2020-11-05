@@ -2,7 +2,8 @@
 a database dump tool
 
 ### How to use it?
-```
+```bash
+$ dbdump -h
 Database dump tool 1.0
 
 yuchunzhou <chunzhou.yu@qq.com>
