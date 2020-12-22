@@ -4,7 +4,7 @@ a database dump tool
 ### How to use it?
 ```bash
 $ dbdump -h
-Database dump tool 1.0
+Database dump tool 0.1.1
 
 yuchunzhou <chunzhou.yu@qq.com>
 dump the database data to an ordinary file
