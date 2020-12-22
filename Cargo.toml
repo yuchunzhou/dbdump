@@ -3,11 +3,17 @@ name = "dbdump"
 version = "0.1.0"
 authors = ["yuchunzhou <chunzhou.yu@qq.com>"]
 edition = "2018"
+keywords = ["database", "cli"]
+categories = ["database", "command-line-utilities"]
+license = "Apache-2.0"
+repository = "https://github.com/yuchunzhou/dbdump"
+homepage = "https://github.com/yuchunzhou/dbdump"
+description = "a database dump tool"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-clap = {version = "3.0.0-beta.1", features = ["yaml"]}
+clap = { version = "3.0.0-beta.1", features = ["yaml"] }
 
 csv = "1.1.3"
 simple_excel_writer = "0.1.7"
