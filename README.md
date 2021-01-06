@@ -1,10 +1,10 @@
 # dbdump
-a database dump tool
+A database dump tool
 
 ### How to use it?
 ```bash
 $ dbdump -h
-Database dump tool 0.1.1
+Database dump tool 1.0
 
 yuchunzhou <chunzhou.yu@qq.com>
 dump the database data to an ordinary file
