@@ -1,7 +1,7 @@
 name: Database dump tool
 version: "1.0\n"
 author: yuchunzhou <chunzhou.yu@qq.com>
-about: dump the database data to an ordinary file
+about: Dump database data to an ordinary file
 args:
     - host:
         short: H
