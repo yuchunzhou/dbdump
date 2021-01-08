@@ -5,7 +5,7 @@ use clap::{load_yaml, App};
 use dumper::Dumper;
 
 fn main() {
-    let yaml = load_yaml!("args.yaml");
+    let yaml = load_yaml!("args.yml");
     let app = App::from(yaml);
     let options = match args::parse_args(app) {
         Some(options) => options,
