@@ -3,7 +3,8 @@ A database dump tool
 
 ### How to use it?
 ```bash
-$ Database dump tool 0.1.7
+$ dbdump -h
+Database dump tool 0.1.7
 
 yuchunzhou <chunzhou.yu@qq.com>
 Dump database data to an ordinary file
