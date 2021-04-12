@@ -3,11 +3,10 @@ A database dump tool
 
 ### How to use it?
 ```bash
-$ dbdump -h
-Database dump tool 1.0
+$ Database dump tool 0.1.7
 
 yuchunzhou <chunzhou.yu@qq.com>
-dump the database data to an ordinary file
+Dump database data to an ordinary file
 
 USAGE:
     dbdump [OPTIONS]
@@ -22,9 +21,9 @@ OPTIONS:
     -k, --kind <kind>            database kind [default: mysql]  [possible values: sqlite, mysql, postgresql]
     -u, --user <username>        database username
     -p, --password <password>    database password
-    -t, --table <table>          which database table to be dumped
     -d, --database <database>    which database contains the dumped table
-    -f, --format <format>        destination file format [default: csv]  [possible values: csv, xls, txt]
+    -t, --table <table>          the target table
     -n, --rows <rows>            how many rows to be dumped [default: 10]
+    -f, --format <format>        output file format [default: csv]  [possible values: csv, xls, txt]
     -o, --output <output>        output file name
 ```

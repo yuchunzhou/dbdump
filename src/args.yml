@@ -1,78 +1,78 @@
 name: Database dump tool
-version: "1.0\n"
+version: "0.1.7\n"
 author: yuchunzhou <chunzhou.yu@qq.com>
 about: Dump database data to an ordinary file
 args:
-    - host:
-        short: H
-        long: host
-        about: database server address
-        default_value: "127.0.0.1"
-        takes_value: true
-        display_order: 0
-    - port:
-        short: P
-        long: port
-        about: database server port
-        default_value: "3306"
-        takes_value: true
-        display_order: 1
-    - kind:
-        short: k
-        long: kind
-        about: database kind
-        default_value: mysql
-        possible_values:
-          - sqlite
-          - mysql
-          - postgresql
-        takes_value: true
-        display_order: 3
-    - username:
-        short: u
-        long: user
-        about: database username
-        takes_value: true
-        display_order: 4
-    - password:
-        short: p
-        long: password
-        about: database password
-        takes_value: true
-        display_order: 5
-    - table:
-        short: t
-        long: table
-        about: which database table to be dumped
-        takes_value: true
-        display_order: 6
-    - database:
-        short: d
-        long: database
-        about: which database contains the dumped table
-        takes_value: true
-        display_order: 7
-    - format:
-        short: f
-        long: format
-        about: destination file format
-        default_value: csv
-        possible_values:
-          - csv
-          - xls
-          - txt
-        takes_value: true
-        display_order: 8
-    - rows:
-        short: n
-        long: rows
-        about: how many rows to be dumped
-        default_value: "10"
-        takes_value: true
-        display_order: 9
-    - output:
-        short: o
-        long: output
-        about: output file name
-        takes_value: true
-        display_order: 10
+  - host:
+      short: H
+      long: host
+      about: database server address
+      default_value: "127.0.0.1"
+      takes_value: true
+      display_order: 0
+  - port:
+      short: P
+      long: port
+      about: database server port
+      default_value: "3306"
+      takes_value: true
+      display_order: 1
+  - kind:
+      short: k
+      long: kind
+      about: database kind
+      default_value: mysql
+      possible_values:
+        - sqlite
+        - mysql
+        - postgresql
+      takes_value: true
+      display_order: 3
+  - username:
+      short: u
+      long: user
+      about: database username
+      takes_value: true
+      display_order: 4
+  - password:
+      short: p
+      long: password
+      about: database password
+      takes_value: true
+      display_order: 5
+  - database:
+      short: d
+      long: database
+      about: which database contains the dumped table
+      takes_value: true
+      display_order: 6
+  - table:
+      short: t
+      long: table
+      about: the target table
+      takes_value: true
+      display_order: 7
+  - rows:
+      short: n
+      long: rows
+      about: how many rows to be dumped
+      default_value: "10"
+      takes_value: true
+      display_order: 8
+  - format:
+      short: f
+      long: format
+      about: output file format
+      default_value: csv
+      possible_values:
+        - csv
+        - xls
+        - txt
+      takes_value: true
+      display_order: 9
+  - output:
+      short: o
+      long: output
+      about: output file name
+      takes_value: true
+      display_order: 10
