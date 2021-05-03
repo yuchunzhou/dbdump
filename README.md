@@ -1,7 +1,7 @@
 # dbdump
 A database dump tool
 
-### How to use it?
+### How to use
 ```bash
 $ dbdump -h
 Database dump tool 0.1.7
