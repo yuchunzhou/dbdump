@@ -1,6 +1,6 @@
 [package]
 name = "dbdump"
-version = "0.1.9"
+version = "0.2.0"
 authors = ["yuchunzhou <chunzhou.yu@qq.com>"]
 edition = "2018"
 keywords = ["database", "cli"]
