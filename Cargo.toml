@@ -1,11 +1,11 @@
 [package]
 name = "dbdump"
-version = "0.1.8"
+version = "0.1.9"
 authors = ["yuchunzhou <chunzhou.yu@qq.com>"]
 edition = "2018"
 keywords = ["database", "cli"]
 categories = ["database", "command-line-utilities"]
-license = "Apache-2.0"
+license = "GPL-2.0"
 repository = "https://github.com/yuchunzhou/dbdump"
 homepage = "https://github.com/yuchunzhou/dbdump"
 description = "A database dump tool"
